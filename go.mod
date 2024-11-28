@@ -6,6 +6,7 @@ toolchain go1.23.2
 
 require (
 	github.com/containers/podman/v5 v5.2.3
+	github.com/sirupsen/logrus v1.9.3
 	github.com/traefik/traefik/v3 v3.1.6
 )
 
@@ -127,7 +128,6 @@ require (
 	github.com/sigstore/fulcio v1.4.5 // indirect
 	github.com/sigstore/rekor v1.3.6 // indirect
 	github.com/sigstore/sigstore v1.8.4 // indirect
-	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/cast v1.7.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stefanberger/go-pkcs11uri v0.0.0-20230803200340-78284954bff6 // indirect

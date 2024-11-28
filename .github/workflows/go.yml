@@ -29,7 +29,7 @@ jobs:
       run: mkdir -p release/
       
     - name: Build binaries
-      run: GOOS=linux GOARCH=amd64 go build -tags 'containers_image_opengpg' -v -o release/podman-http-traefik-linux-amd64
+      run: GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -tags 'containers_image_opengpg' -v -o release/podman-http-traefik-linux-amd64
     
     - name: Calculate shasums
       run: |
